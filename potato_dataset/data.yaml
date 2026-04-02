@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bud', 'Damaged potato', 'Defected potato', 'Diseased-fungal potato', 'Noise', 'Potato', 'Sprouted potato']
+
+roboflow:
+  workspace: dhruvs-workspace-jv0vk
+  project: potato-detection-3et6q-tnlwk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dhruvs-workspace-jv0vk/potato-detection-3et6q-tnlwk/dataset/1
